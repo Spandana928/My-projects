@@ -13,7 +13,42 @@ const questions = [
             text: "Which one is a JavaScript library?",
             options: ["React", "Laravel", "Django", "Flask"],
             correct: 1
-        }
+        },
+         {
+            text:" Which of the following methods is used to select an element by its ID in JavaScript?",
+            options: ["getElementByClassName()", "querySelectorAll()", " getElementById()", "getElementsByTagName()"],
+            correct: 3
+        },
+        {
+            text: " How do you create a function in JavaScript?",
+            options: ["function = myFunction() {}", "function myFunction() {}", "function:myFunction() {}", "create function myFunction() {}"],
+            correct: 2
+        },
+        {
+            text: " How do you call a function named myFunction",
+            options: ["call myFunction();", "myFunction();", "call function myFunction();", "execute myFunction();"],
+            correct: 2
+        },
+        {
+            text: "How can you add a comment in JavaScript?",
+            options: ["<!-- This is a comment -->", "/* This is a comment */", " # This is a comment", " // This is a comment"],
+            correct: 4
+        },
+        {
+            text: "Which of the following is a loop in JavaScript?",
+            options: ["for", "iterate", "repeat", "for each"],
+            correct: 1
+        },
+        {
+            text: "What is the output of typeof null in JavaScript?",
+            options: ["null", "undefined", " object", " function"],
+            correct: 4
+        },
+        {
+            text:" Which method is used to convert JSON data to a JavaScript object?",
+            options: [" JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.convert()"],
+            correct: 1
+        },
     ];
     
     let currentQuestionIndex = 0;
