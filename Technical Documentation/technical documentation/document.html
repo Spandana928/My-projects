@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Technical Document</title>
+    <link rel="stylesheet" href="documentation.css">
+  
+</head>
+<body>
+    <div id="flex">
+    <div>
+        <div id="sidebar">
+        <h2><B>Documentaion Menu</B> </h2>
+        
+        <ul>
+            <li>Introduction To JavaScript</li>
+            <li>Variables</li>
+            <li>Datatypes </li>
+            <li>Conditiona Statements</li>
+            <li>Functions</li>
+            <li>Arrays</li>
+        </ul>
+    </div>
+    </div>
+    <section id="content">
+        <h3> Introduction to JavaScript</h3>
+        <p> JAVASCRIPT
+JavaScript is the scripting language of the Web.
+JavaScript is used in millions of Web pages to add functionality,<br> validate forms, detect browsers, and 
+much more.
+
+JavaScript is used in millions of Web pages to improve the design,<br>  validate forms, detect browsers, create 
+cookies, and much more.<br> 
+JavaScript is the most popular scripting language on the Internet,<br>  and works in all major browsers, such as 
+Internet Explorer, Mozilla Firefox, and Opera.
+</p>
+        <h3> JavaScript Variables</h3>
+        <p> 
+            Variables are "containers" for storing information.<br> 
+            JavaScript variables are used to hold values or expressions.<br> 
+            A variable can have a short name, like x, or a more descriptive name,<br>  like carname.
+            Rules for JavaScript variable names:<br> 
+             Variable names are case sensitive (y and Y are two different variables)<br>  
+             Variable names must begin with a letter or the underscore character <br> 
+            Note: Because JavaScript is case-sensitive, variable names are case-sensitive.</p><br> 
+        <h3> DataTypes </h3>
+        <p>
+             Numbers - are values that can be processed and calculated. You don't enclose them in quotation 
+            marks. <br> The numbers can be either positive or negative. <br>
+             Strings - are a series  of letters and numbers enclosed in quotation marks.<br>  JavaScript uses the string 
+            literally; it doesn't process it. <br> You'll use strings for text you want displayed or values you want 
+            passed along. <br> 
+             Boolean (true/false) - lets you evaluate whether a condition meets or does not meet specified 
+            criteria. <br> 
+             Null - is an empty value. null is not the same as 0 -- 0 is a real, <br> calculable number, whereas null is 
+            the absence of any value. <br> 
+            Data Types <br> 
+           <b> TYPE EXAMPLE </b> <br> 
+           <div style="background-color:rgb(220, 213, 203);  padding: 10px;">
+            Numbers Any number, such as 17, 21, or 54e7<br> 
+            Strings "Greetings!" or "Fun"<br>
+            Boolean Either true or false<br> 
+            Null A special keyword for exactly that <br>
+            – the null value (that is, nothing)</div>
+            </p><br> 
+        <h3>  Conditional Statements</h3>
+        <p>
+            Very often when you write code, you want to perform different actions for different decisions. <br> You can 
+            use conditional statements in your code to do this.<br> 
+            In JavaScript we have the following conditional statements:<br> 
+             if statement - use this statement if you want to execute some code only <br> if a specified condition is 
+            true <br> 
+             if...else statement - use this statement if you want to execute some code<br>  if the condition is true 
+            and another code if the condition is false <br> 
+             if...else if....else statement - use this statement if you want to select one of many <br> blocks of code to 
+            be executed <br> 
+             switch statement - use this statement if you want to select one of <br> many blocks of code to be 
+            executed <br> 
+            <b>If Statement</b> <br>
+            You should use the if statement if you want to execute some code only <br> if a specified condition is true.<br> 
+            Syntax<br> 
+            <div style="background-color:rgb(220, 213, 203);  padding: 10px;">if (condition)<br>
+            {<br> 
+            code to be executed if condition is true<br> 
+            }<br> </div>
+            Note that if is written in lowercase letters. Using uppercase letters (IF) will generate <br> a JavaScript error! <br>
+            <b>The JavaScript Switch Statement</b> <br> 
+            You should use the switch statement if you want to select <br> one of many blocks of code to be executed <br>
+            <b>Syntax</b><br>
+            <div style="background-color:rgb(220, 213, 203); padding: 10px;"><br>
+            <b>switch(n)</b><br> 
+            {<br> 
+            case 1:<br> 
+             execute code block 1<br> 
+             break; <br> 
+            case 2:<br> 
+             execute code block 2<br> 
+             break;<br> 
+            default:<br> 
+             code to be executed if n is<br> 
+             different from case 1 and 2<br> 
+            }</div> 
+           
+        <h3>JavaScript Functions</h3>
+        <p>
+            A function (also known as a method) is a self-contained piece of code that performs a particular 
+            "function". <br> You can recognise a function by its format - it's a piece of descriptive text, <br> followed by open 
+            and close brackets.<br> A function is a reusable code-block that will be executed by an event,<br>  or when the 
+            function is called.
+            To keep the browser from executing a script when the page loads, <br> you can put your script into a function.
+            A function contains code that will be<br>  executed by an event or by a call to that function.
+            You may call a function from anywhere within the page <br> (or even from other pages if the function is 
+            embedded in an external .js file).<br> 
+            Functions can be defined both in the  and in the  section of a document.<br>  However, to 
+            assure that the function is read/loaded by the browser before it is called, <br> it could be wise to put it in the 
+             section. <br> 
+             <b>The syntax for creating a function is:</b><br> 
+             <div style="background-color:rgb(220, 213, 203); padding: 10px;">
+                function functionname(var1,var2,...,varX)<br> 
+             {<br> 
+             some code<br> 
+             }<br> </div>
+             var1, var2, etc are variables or values passed into the function. The { and the } defines the start and end of 
+             the function.<br> 
+             Note: A function with no parameters must include the parentheses () after the function name:<br> 
+             function functionname()
+             {
+             some code
+             }<br> 
+             Note: Do not forget about the importance of capitals in JavaScript! The word function must be written in <br> 
+             lowercase letters, otherwise a JavaScript error occurs! Also note that you must call a function with the <br> 
+             exact same capitals as in the function name.<br> 
+             The return Statement
+             The return statement is used to specify the value that is returned from the function.<br> 
+             So, functions that are going to return a value must use the return statement.</p><br>
+
+        <h3> JavaScript Arrays</h3>
+        <p> 
+            An array object is used to create a database-like structure within a script.<br> Grouping data points 
+            (array elements) together makes<br> it easier to access and use the data in a script. There are methods 
+            of accessing <br>actual databases (which are beyond the scope of this series) but here we're<br> talking 
+            about small amounts of data.<br>
+            An array can be viewed like a 
+            column of data in a spreadsheet.<br> The 
+            name of the array would be the same <br>
+            as the name of the column. Each 
+            piece of data (element) in the array <br>
+            is referred to by a number (index), 
+            just like a row number in a column.<br>
+            An array is an object. Earlier, I said 
+            that an object is a thing, a collection <br>
+            of properties (array elements, in this 
+            case) grouped together.<br>
+            You can name an array using the 
+            same format as a variable, a function or an object.<br>
+             Remember our basic rules: The first 
+            character cannot be a number,<br> you cannot use a reserved word, and you cannot use spaces. <br>
+            Also, be sure to remember that the name of the array object is capitalized, <br>e.g. Array.
+            The JavaScript interpreter <br>uses numbers to access the collection of elements (i.e. the data) in 
+            an array.<br> Each index number (as it is the number of the data in the array's index) refers to a 
+            specific<br> piece of data in the array, similar to an ID number.<br> It's important to remember that 
+            the index numbering of the data<br> starts at "0." So, if you have 8 elements, the first element 
+            will be numbered "0" and the last one will be "7." <br>
+            Elements can be of any type: character string, integer, Boolean,<br> or even another array. An 
+            array can even have different types of elements <br>within the same array. Each element in the 
+            JAVASCRIPT Notes<br>
+            By  Prof Harshal V Patil Page 26<br>
+            array is accessed by placing its index number in brackets,<br> i.e. myCar[4]. This would mean 
+            that we are looking for data located in the array myCar which has an index of "4."<br> Since the 
+            numbering of an index starts at "0,"<br> this would actually be the fifth index. <br>For instance, in the 
+            following array,<br>
+            var myCar = new Array("Chev","Ford","Buick","Lincoln","Truck");<br>
+            alert(myCar[4])
+            the data point with an index of "4" would be Truck.<br> In this example, the indexes are 
+            numbered as follows: 0=Chev, 1=Ford, 2=Buick, 3=Lincoln<br>, and 4=Truck. When creating 
+            loops, it's much easier to refer to a number than to the actual data itself.<br>
+            The Size of the Array
+            The size of an array is determined by either the actual number of elements <br>it contains or by 
+            actually specifying a given size.<br> You don't need to specify the size of the array. <br>Sometimes, 
+            though, you may want to pre-set the size,<br> e.g.:<br>   <div style="background-color:rgb(220, 213, 203); padding: 10px;">
+            var myCar = new Array(20);</div>
+            That would pre-size the array with 20 elements. <br>You might pre-size the array in order to set 
+            aside the space in memory.</p>
+    </section>
+    </div>
+</body>
+</html>
