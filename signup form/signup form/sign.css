@@ -1,0 +1,57 @@
+body{
+background-color:rgb(244, 243, 243);
+position:relative;
+letter-spacing: 3px;
+}
+
+
+
+#caption{
+
+   background-color: blueviolet;
+   display: inline;
+   -webkit-text-fill-color: white;
+   padding: 7px;
+   border-radius: 5px;
+  position:relative;
+ bottom: 530px;
+  left: 820px;
+  border-width: 200px;
+
+}
+#box{
+   background-color: white;
+   display: inline;
+   width: 380px;
+   height:470px;
+   position: relative;
+   left: 420px;
+   bottom: 30px;
+
+}
+
+#forms{
+  text-align: center;
+  margin-top: 30px;
+}
+#lcaption{
+   background-color: rgb(122, 187, 122);
+   padding:10px;
+}
+
+.in1, .in2, .in3, .in4{
+   width: 270px;
+   height: 40px;
+   text-align: center;
+   letter-spacing: 3px;
+   margin-top: 15px;
+
+}
+#main{
+
+   text-align: left;
+   position: relative;
+   top: 230px;
+   left: 300px;
+
+}
