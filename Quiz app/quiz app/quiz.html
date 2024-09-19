@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+ 
+    <body>
+        <nav id="navbar">
+          QuizApp
+        </nav>
+        <fieldset>
+          <div id="quiz-container">
+            <div id="question-container">
+                <p id="question-number">Question 1 of 3</p>
+                <div id="line"></div>
+                <p id="question-text">How to write an IF statement in JavaScript?</p>
+                <div id="option">
+                    <input type="radio" name="answer" value="1"> if i==5 then<br>
+                    <input type="radio" name="answer" value="2"> if(i==5)<br>
+                    <input type="radio" name="answer" value="3"> if i=5<br>
+                    <input type="radio" name="answer" value="4"> if i=5 then<br>
+                </div>
+            </div>
+            <button id="prev-btn">Prev</button>
+            <button id="submit-btn">Submit</button>
+            <button id="next-btn">Next</button>
+            
+           
+
+            <p id="feedback"></p>
+        </div>
+        
+        
+
+        </fieldset>
+
+
+
+
+
+  <script src="quiz.js"></script>  
+</body>
+</html>
