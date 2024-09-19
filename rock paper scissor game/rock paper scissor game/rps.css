@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(27, 27, 42);
+}
+#p1{
+    -webkit-text-fill-color: white;
+    padding: 0;
+    margin: 0;
+
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 95px;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    left: 450px;
+}
+#name{
+    padding-top: 18px;
+    padding-left: 20px;
+}
+#score{
+    background-color: white;
+    width: 220px;
+    height: 60px;
+    -webkit-text-fill-color:rgb(27, 27, 42);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+   
+    left: 250px;
+    margin-top: 15px;
+    
+}
+#score p{
+    margin:0;
+    padding:0;
+text-align: center;
+position: relative;
+top: 11px;
+}
+#number{
+    font-size: 19px;
+    position: relative;
+    text-align: center;
+
+}
+#line1{
+    border-bottom: 5px solid rgb(15, 15, 40) ;
+    width: 160px;
+    position: relative;
+    left: 690px;
+}
+#line2{
+    border-bottom: 5px solid rgb(15, 15, 40) ;
+    width: 230px;
+    transform: rotate(30deg);
+    position: relative;
+    left: 570px;
+    bottom: 7px;
+}
+#line3{
+    border-bottom: 5px solid rgb(15, 15, 40) ;
+    width: 210px;
+    transform: rotate(145deg);
+    position: relative;
+    left: 765px;
+    bottom: 156px;
+}
+#rock{
+  position: relative;
+  top: 350px;
+  left: 700px;   
+}
+
+#paper{
+    position: relative;
+    left: 500px;
+    bottom: 60px;
+}
+
+#scissor{
+    position: relative;
+    left: 850px;
+    bottom: 210px;
+}
+.reset{
+    position: relative;
+    left: 1300px;
+}
